@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "limits-service",
+      "type": "com.revs.microservices.limitsservice.config.AppPropertyConfig",
+      "sourceType": "com.revs.microservices.limitsservice.config.AppPropertyConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "limits-service.maximum",
+      "type": "java.lang.Integer",
+      "sourceType": "com.revs.microservices.limitsservice.config.AppPropertyConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "limits-service.minimum",
+      "type": "java.lang.Integer",
+      "sourceType": "com.revs.microservices.limitsservice.config.AppPropertyConfig",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
