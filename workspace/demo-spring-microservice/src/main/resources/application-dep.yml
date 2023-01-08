@@ -1,0 +1,28 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: env,beans
+        include: '*'
+server:
+  port: 8585
+spring:
+  jpa:
+    defer-datasource-initialization: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+  datasource:
+    url: jdbc:h2:mem:testdb #jdbc:mysql://localhost:3306/spring_microservices
+    #username: springstudent
+    #password: springstudent
+  security:
+    user:
+      name: user
+      password: user
+  h2:
+    console:
+      enabled: true

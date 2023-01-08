@@ -1,0 +1,4 @@
+limits-service:
+  maximum: 100
+  minimum: 1
+  profile: MicroserviceDEFAULT

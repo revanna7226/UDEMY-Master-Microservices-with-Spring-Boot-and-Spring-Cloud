@@ -1,0 +1,4 @@
+limits-service:
+  maximum: 2000
+  minimum: 20
+  profile: QA

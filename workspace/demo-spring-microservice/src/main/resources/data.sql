@@ -1,0 +1,2 @@
+insert into user_details(id, birth_date, name) values(20001, current_date(), 'Revanna'),(20002, current_date(), 'Ravi'),(20003, current_date(), 'Raju');
+insert into post(id, message, user_id) values(30001, 'Java Developer', 20001),(300002, 'Mechanical Engineer', 20002),(300003, 'Civil Engineer', 20003);
