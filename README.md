@@ -6,4 +6,4 @@
 >
 > Click [here]() to go to GitHub Link for course source code.
 >
-> Click [here](files/Spring-Microservices-CourseGuide) to check Course Guide.
+> Click [here](files/Spring-Microservices-CourseGuide.pdf) to check Course Guide PDF Document.
