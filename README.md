@@ -20,3 +20,11 @@ Any software, application, or cloud technology that uses standardized web protoc
 
 ## Why do we need a web service?
 Web-based apps are developed using a range of programming platforms in today’s corporate world. Some applications are written in Java, others in .Net, and still others in Angular JS, Node.js, and other frameworks. Most of the time, these diverse programs require some form of communication to work together. Because they are written in separate programming languages, ensuring accurate communication between them becomes extremely difficult. Web services have a role in this. Web services provide a common platform for several applications written in different programming languages to connect with one another
+
+## Spring Cloud Microservices Components
+| Sl. No | Component | Example | Legacy
+|-----:|-----------|----------|--------|
+|     1| Discovery Server| Netflix Eureka| |
+|     2| MS-MS Communication    | Fiegn Client | Rest Template, WebClient |
+|     3| Circuit Breaker       | Resilience4j | Netflix Hystrix|
+| 4 | API Gateway | Spring Cloud Gateway | Netflix Zuul |
