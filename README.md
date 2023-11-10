@@ -28,3 +28,4 @@ Web-based apps are developed using a range of programming platforms in today’s
 |     2| MS-MS Communication    | Fiegn Client | Rest Template, WebClient |
 |     3| Circuit Breaker       | Resilience4j | Netflix Hystrix|
 | 4 | API Gateway | Spring Cloud Gateway | Netflix Zuul |
+| 5 | Distributed Logging | ELK, Sleuth | |
